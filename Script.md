@@ -157,6 +157,23 @@ Um nun eine möglichst lange Kette zu bekommen gibt es 3 Verfahren.
 2. Azeotrope Dehydratisierungskondensation
 3. Lactid-Ringoffnungspolymerisation
 
+Bei der Kondenstionspolymerisation reagieren die Hydroxylgruppen und Carboxylgruppen.
+Dannach werden Kupplungsmittel und Veresterungsmittel hinzugefügt, die dann die Polymerisation verbessern.
+Das ist auch wesentlich teurer als der Erste Schritt.
+Als Katalysator verwendet man Zinn verbindungen, die müssen dannach wieder entfernt werden, weil sie giftig sind.
+
+Bei der Ringöffnungspolymerisation, wird die Milchsäure bei 115bis 179 °C kondensiert.
+Dannach das Kondenswasser und Mesomilchsäure entfernt und umkrystallisiert.
+
+In der Industrie gibt es dazu verschiedene Verfahren um das Lactid extrahieren und zu reinigen.
+
+Je nach Katalysator wird ein anderer Polymerisationsmechanismus verwendet.
+
+Kationisch ist es bei protischen Säuren, Lewis-Säuren und bei alkylierenden Verbindungen.
+Es gibt auch Anionische, die wegen Deprotonierung zu schlechteren Ergebnissen führen.
+Zinn als Kataylsator gehört zu den Koordinations-/Insertionsmechanismen,
+dazu gehören auch Seltene Erden und Aluminiumalkoxide.
+
 # HOW 2 3D-Druck
 Vom Modell zum Druck
 
