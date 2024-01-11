@@ -1,18 +1,27 @@
-from manim import *  # or: from manimlib import *
+from manim import *
+from mol2chemfigPy3 import mol2chemfig
 
-from manim_slides import Slide
+myChemTemplate = TexTemplate(
+                    tex_compiler="latex",
+                    output_format='.dvi',
+                    preamble=r"""
+                        \usepackage{amsmath}
+                        \usepackage{amssymb}
+                        \usepackage{chemfig}
+                        \usepackage{mol2chemfig}
+                        \setchemfig{atom sep=2em,angle increment=45,bond offset=2pt,double bond sep=2pt}
+                    """
+                    )
 
-
-class BasicExample(Slide):
+class kadir(Scene):
     def construct(self):
-        circle = Circle(radius=3, color=BLUE)
-        dot = Dot()
 
-        self.play(GrowFromCenter(circle))
-        self.next_slide()  # Waits user to press continue to go to the next slide
+        a = mol2chemfig('CN1C=NC2=C1C(=O)N(C(=O)N2C)C', inline=True, aromatic=False)
 
-        self.next_slide(loop=True)  # Start loop
-        self.play(MoveAlongPath(dot, circle), run_time=2, rate_func=linear)
-        self.next_slide()  # This will start a new non-looping slide
+        chem = Tex(
+            a,
+            tex_template=myChemTemplate
+        ).set_stroke(width=3)
 
-        self.play(dot.animate.move_to(ORIGIN))
+        self.play(Write(chem))
+        self.wait()

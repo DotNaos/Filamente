@@ -1,4 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/schue/dev/Filamente/media/videos/main/1440p30/partial_movie_files/DefaultTemplate/3004084486_1084572684_223132457.mp4'
-file 'file:C:/Users/schue/dev/Filamente/media/videos/main/1440p30/partial_movie_files/DefaultTemplate/2944845268_2751405428_666618010.mp4'
-file 'file:C:/Users/schue/dev/Filamente/media/videos/main/1440p30/partial_movie_files/DefaultTemplate/2944845268_2577770312_666618010.mp4'
